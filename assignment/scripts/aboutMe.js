@@ -36,7 +36,7 @@ console.log( pets );
 // 9 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
 let friendsPets = 4;
 // 10 - Add two pets to your `pets` variable
-
+pets += 2;
 // 11 - Create a constant variable called `allowedPets` and set it to a number value of your choice
 let allowedPets = 7;
 // 12 - Create a variable called `result`. Create a conditional:

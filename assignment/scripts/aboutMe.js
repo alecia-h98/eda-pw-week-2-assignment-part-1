@@ -10,29 +10,29 @@ let fullName = ' firstName + lastName ';
 console.log( 'fullName' );
 // 4 - Create a variable called `luckyNumber` and assign it the value of your lucky number. *
 //     Console log the value of `luckyNumber`
-luckyNumber = 1122 ;
+let luckyNumber = 1122 ;
 console.log( 'luckyNumber' );
 // 5 - Create a variable `introduction` and using the variables from above,
 //     give it the value of:
 //     'My name is (full name), and I think (lucky number) is a winner!'.
 //     Refer back to the videos if you need help with this one.
 //     Console log the value of `introduction`
-
-console.log( '' );
+let introduction = 'My name is ' + fullName + 'and I think ' + luckyNumber + 'is a winner!'
+console.log( 'introduction' );
 // 6 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 //     Console log the value of `adventurous`
-adventurous = 'true';
+let adventurous = 'true';
 console.log( '' );
 // 7 - Create a variable named `food`, and set its value to a string of your favorite food
 //     Console log the value of `food`
-food = 'oofda-tacos, tacos, poke bowl';
+let food = 'oofda-tacos, tacos, poke bowl';
 console.log( '' );
 // 8 - Create a variable called `pets` and set it to the value of the number of pets you have
 //     Console log the value of `pets` *
-pets = 2 ;
+let pets = 2 ;
 console.log( 'pets' );
 // 9 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
-friendPets = 4 ;
+let friendPets = 4 ;
 // 10 - Add two pets to your `pets` variable
 
 // 11 - Create a constant variable called `allowedPets` and set it to a number value of your choice
